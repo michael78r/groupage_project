@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/groupage_project/static/css/main.aaba554b.css",
+    "main.js": "/groupage_project/static/js/main.ad9fd78e.js",
+    "index.html": "/groupage_project/index.html",
+    "main.aaba554b.css.map": "/groupage_project/static/css/main.aaba554b.css.map",
+    "main.ad9fd78e.js.map": "/groupage_project/static/js/main.ad9fd78e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.aaba554b.css",
+    "static/js/main.ad9fd78e.js"
+  ]
+}
