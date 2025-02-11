@@ -1,0 +1,24 @@
+/* scrollbar */
+@import 'simplebar-react/dist/simplebar.min.css';
+/* @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@300&display=swap'); */
+/* index.css */
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,700;1,400&family=Barlow:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+.swal2-success-line::before {
+    content: "✔";
+    color: green;
+    margin-right: 5px;
+  }
+
+  .swal2-error-line::before {
+    content: "✖";
+    color: red;
+    margin-right: 5px;
+  }
+
+  .swal2-warning-line::before {
+    content: "⚠️"; /* Utilisation de l'icône d'avertissement */
+    color: orange; /* Couleur orange */
+    margin-right: 5px;
+}
