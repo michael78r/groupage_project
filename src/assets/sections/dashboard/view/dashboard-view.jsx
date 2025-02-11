@@ -5,6 +5,7 @@ import { formatterMontant } from "../../../components/formatterMontant";
 import { Container, Stack, Typography, Divider, MenuItem, Menu, Button } from '@mui/material';
 import { listClasses } from '@mui/material/List';
 import { getMois } from "../../../components/table/utils";
+
 import ChiffreDaffaire from "../app_evolution_ca";
 import Iconify from "../../../components/iconify/iconify";
 import AppWidgetCA from "../app-widget-ca";
@@ -12,6 +13,7 @@ import AppWidget from "../app-widget";
 import MeilleurClientDuMois from "../app_mc_mois";
 import MeilleurClientAnnee from "../app_mc_annee";
 import TopClient from "../top_client";
+
 
 const ANNEES = [];
 
@@ -634,7 +636,7 @@ export default function DashboardView() {
                         title="Nombre de clients"
                         total={result.Client_actif}
                         color="success"
-                        icon={<img alt="icon" src="/assets/icons/glass/ic_glass_users.png" />}
+                        icon={<img alt="icon" src="/public/assets/icons/glass/ic_glass_users.png" />}
                     />
 
                 </Grid>
