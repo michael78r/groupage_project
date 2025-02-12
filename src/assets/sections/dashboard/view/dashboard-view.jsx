@@ -636,7 +636,7 @@ export default function DashboardView() {
                         title="Nombre de clients"
                         total={result.Client_actif}
                         color="success"
-                        icon={<img alt="icon" src="/public/assets/icons/glass/ic_glass_users.png" />}
+                        icon={<img alt="icon" src="/assets/icons/glass/ic_glass_users.png" />}
                     />
 
                 </Grid>
