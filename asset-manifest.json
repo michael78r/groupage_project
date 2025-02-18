@@ -1,13 +1,18 @@
 {
   "files": {
     "main.css": "/groupage_project/static/css/main.aaba554b.css",
-    "main.js": "/groupage_project/static/js/main.ad9fd78e.js",
+    "main.js": "/groupage_project/static/js/main.4d0372a0.js",
+    "static/media/chiffre-daffaires.png": "/groupage_project/static/media/chiffre-daffaires.a235e2ffbf1d95f8e7c3.png",
+    "static/media/close1.png": "/groupage_project/static/media/close1.7aa994f9b3cf128e5af4.png",
+    "static/media/unpaid.png": "/groupage_project/static/media/unpaid.bf6e74360d395ec279d8.png",
+    "static/media/add(1).png": "/groupage_project/static/media/add(1).9841a5533cc67e679cce.png",
+    "static/media/container_8984093.png": "/groupage_project/static/media/container_8984093.85817e2d97ea5082b3c4.png",
     "index.html": "/groupage_project/index.html",
     "main.aaba554b.css.map": "/groupage_project/static/css/main.aaba554b.css.map",
-    "main.ad9fd78e.js.map": "/groupage_project/static/js/main.ad9fd78e.js.map"
+    "main.4d0372a0.js.map": "/groupage_project/static/js/main.4d0372a0.js.map"
   },
   "entrypoints": [
     "static/css/main.aaba554b.css",
-    "static/js/main.ad9fd78e.js"
+    "static/js/main.4d0372a0.js"
   ]
 }
