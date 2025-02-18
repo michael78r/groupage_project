@@ -5,31 +5,30 @@ import { HelmetProvider } from 'react-helmet-async';
 import { jwtDecode } from "jwt-decode";
 import './index.css'
 
-import ThemeProvider from "./assets/theme";
-import Layout from "./assets/layouts";
-import LayoutUser from "./assets/layouts_user";
-import ManifestPage from "./assets/pages/manifest";
-import ColisPage from "./assets/pages/colis";
-import DetailsManifestPage from "./assets/pages/detailsmanifeste";
-import DetailsFacturePage from "./assets/pages/detailsfacture";
-import LoginView from "./assets/sections/login/login-view";
-import DashboardPage from "./assets/pages/dashboard";
-import useToken from './assets/useToken';
-import ManifestAjout from "./assets/sections/manifest/view/man-ajout";
-import PrivateRoutes from "./assets/routes/PrivateRoutes";
-import GenererColis from "./assets/sections/proforma/view/generer_colis";
-import { MyContext } from "./assets/components/context/mycontext";
-import Page404 from "./assets/sections/error/not-found-view";
-import GenererPDF from "./assets/pages/facture-pdf";
-import SuiviColisPage from "./assets/pages/suivi_colis";
-import BasicTable from "./assets/pages/test"
-// import './assets/global.css';
-import Page401 from "./assets/sections/error/401-error";
-import { ColisAdd } from "./assets/sections/colis/view/colis-ajout";
-import RegisterView from "./assets/sections/login/register";
-import ClientPage from "./assets/pages/client";
-import ExcelExport from "./assets/pages/test";
-import Parametre from "./assets/pages/parametre";
+import ThemeProvider from "./app/theme";
+import Layout from "./app/layouts";
+import ManifestPage from "./app/pages/manifest";
+import ColisPage from "./app/pages/colis";
+import DetailsManifestPage from "./app/pages/detailsmanifeste";
+import DetailsFacturePage from "./app/pages/detailsfacture";
+import LoginView from "./app/sections/login/login-view";
+import DashboardPage from "./app/pages/dashboard";
+import useToken from './app/useToken';
+import ManifestAjout from "./app/sections/manifest/view/man-ajout";
+import PrivateRoutes from "./app/routes/PrivateRoutes";
+import GenererColis from "./app/sections/proforma/view/generer_colis";
+import { MyContext } from "./app/components/context/mycontext";
+import Page404 from "./app/sections/error/not-found-view";
+import GenererPDF from "./app/pages/facture-pdf";
+import SuiviColisPage from "./app/pages/suivi_colis";
+import BasicTable from "./app/pages/test"
+// import './app/global.css';
+import Page401 from "./app/sections/error/401-error";
+import { ColisAdd } from "./app/sections/colis/view/colis-ajout";
+import RegisterView from "./app/sections/login/register";
+import ClientPage from "./app/pages/client";
+import ExcelExport from "./app/pages/test";
+import Parametre from "./app/pages/parametre";
 
 
 
@@ -85,7 +84,7 @@ function Main() {
                             <Route path="test" element={<ExcelExport />} />
                             <Route path="parametre" element={<Parametre />} />
                             <Route path="client" element={<ClientPage />} />
-                            <Route path="*" element={<Navigate to="/404" replace />} />
+                            <Route path="*" element={<Navigate to="/dashboard" replace />} />
 
                         </Route>
                         <Route path="generer_pdf" element={<GenererPDF />} />
